@@ -122,6 +122,30 @@
 		</dependency>
 
 	</dependencies>
+	<repositories>
+		<repository>
+  <id>java-maven</id>
+  <url>https://pkgs.dev.azure.com/satya96189/app-comp1/_packaging/java-maven/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	</repositories>	
+	<distributionManagement>
+		<repository>
+  <id>java-maven</id>
+  <url>https://pkgs.dev.azure.com/satya96189/app-comp1/_packaging/java-maven/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		</distributionManagement>
 
 	<build>
 		<plugins>
